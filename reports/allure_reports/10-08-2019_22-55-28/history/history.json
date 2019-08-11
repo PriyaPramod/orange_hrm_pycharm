@@ -1,0 +1,100 @@
+{
+  "04fdaa12aa45e1d081490e00cc1c3f71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df3a1807a19a7e1b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1565457927598,
+        "stop" : 1565457927598,
+        "duration" : 0
+      }
+    } ]
+  },
+  "323375edfe90635ceb9f42f554a3c914" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c45a4e707e1f1ba0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1565457927818,
+        "stop" : 1565457927818,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9f092108f31c133a44e70425274cd9ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fee3330cc96607d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565435770668,
+        "stop" : 1565435770668,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1e8569c30affec34fed9c4c817454254" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f80053d47d05741",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565455858612,
+        "stop" : 1565455858612,
+        "duration" : 0
+      }
+    } ]
+  },
+  "013be5b1305be28f8c7958c15f66609d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b538cf63e4101046",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1565457927902,
+        "stop" : 1565457927902,
+        "duration" : 0
+      }
+    } ]
+  }
+}

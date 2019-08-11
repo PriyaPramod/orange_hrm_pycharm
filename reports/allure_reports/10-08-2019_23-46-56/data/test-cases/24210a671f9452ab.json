@@ -1,0 +1,104 @@
+{
+  "uid" : "24210a671f9452ab",
+  "name" : "test_datda_pass[Firefox]",
+  "fullName" : "test_scripts.test_dashboard.test_dashboard#test_datda_pass[Firefox]",
+  "historyId" : "a7d30a31861dc095131e113cfd9c2ff9",
+  "time" : {
+    "start" : 1565460969452,
+    "stop" : 1565460969452,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1565460950668,
+      "stop" : 1565460969436,
+      "duration" : 18768
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1565460969452,
+      "stop" : 1565461009946,
+      "duration" : 40494
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts.test_dashboard"
+  }, {
+    "name" : "suite",
+    "value" : "test_dashboard"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JAMBUR3"
+  }, {
+    "name" : "thread",
+    "value" : "10604-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_dashboard.test_dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "set_up",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "538b75845e696562",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565460561991,
+        "stop" : 1565460561991,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c31b77e7b7c9aca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565460304162,
+        "stop" : 1565460304169,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24210a671f9452ab.json",
+  "parameterValues" : [ "'Firefox'" ]
+}

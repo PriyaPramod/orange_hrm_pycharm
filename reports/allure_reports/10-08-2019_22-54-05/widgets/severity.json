@@ -1,0 +1,51 @@
+[ {
+  "uid" : "f26744bbbac24686",
+  "name" : "test_datda_fail[Chrome, Firefox]",
+  "time" : {
+    "start" : 1565457845127,
+    "stop" : 1565457845127,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7b9118d06aee06f1",
+  "name" : "test_datda",
+  "time" : {
+    "start" : 1565435770668,
+    "stop" : 1565435770668,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4705062b80c0d9b5",
+  "name" : "test_datda_pass[Chrome, Firefox]",
+  "time" : {
+    "start" : 1565457845064,
+    "stop" : 1565457845064,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4a01a9ac6a2bf5d8",
+  "name" : "test_datda[Chrome]",
+  "time" : {
+    "start" : 1565455858612,
+    "stop" : 1565455858612,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d7af5dfb2ca0b09",
+  "name" : "test_datda[Chrome, Firefox]",
+  "time" : {
+    "start" : 1565457844767,
+    "stop" : 1565457844767,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

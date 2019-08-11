@@ -1,0 +1,21 @@
+[ {
+  "uid" : "120b0f0476ec5298",
+  "name" : "test_datda[Chrome]",
+  "time" : {
+    "start" : 1565455858612,
+    "stop" : 1565455858612,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cb15652597e41c4",
+  "name" : "test_datda",
+  "time" : {
+    "start" : 1565435770668,
+    "stop" : 1565435770668,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

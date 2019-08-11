@@ -1,0 +1,81 @@
+{
+  "uid" : "9b194535799e71f8",
+  "name" : "test_datda[r1]",
+  "fullName" : "test_scripts.test_dashboard.test_dashboard#test_datda[r1]",
+  "historyId" : "57fd053c97b0a79a08c5f725480f58d3",
+  "time" : {
+    "start" : 1565458060456,
+    "stop" : 1565458060456,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'get'",
+  "statusTrace" : "request = <SubRequest 'set_up' for <Function test_datda[r1]>>\n\n    @pytest.fixture(scope='function', params=ReadConfig.get_browser(), autouse=True)\n    def set_up(request):\n>       web_driver = start_browser(request.param, ReadConfig.get_url())\n\nconftest.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nbrowser_name = 'r', url = 'https://www.amazon.in/'\n\n    def start_browser(browser_name, url):\n        driver = None\n        if browser_name == \"chrome\" or browser_name == \"Chrome\":\n            options = webdriver.ChromeOptions()\n            options.add_argument(\"--start-maximized\")\n            options.add_argument(\"--disable-infobars\")\n            driver = webdriver.Chrome(options=options,\n                            executable_path=constants.CHROME_PATH)\n    \n        elif browser_name == \"firefox\" or browser_name == \"Firefox\":\n            driver = webdriver.Firefox(\n                executable_path=constants.FIREFOX_PATH)\n    \n>       driver.get(url)\nE       AttributeError: 'NoneType' object has no attribute 'get'\n\nsource\\utilities\\webdriver_extension.py:19: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1565458060456,
+      "stop" : 1565458060456,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'get'\n",
+    "statusTrace" : "  File \"C:\\Users\\Jayapriyapramod\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\Jayapriyapramod\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 923, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\Jayapriyapramod\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 779, in call_fixture_func\n    res = next(it)\n  File \"D:\\Training\\Development\\orange_hrm\\conftest.py\", line 21, in set_up\n    web_driver = start_browser(request.param, ReadConfig.get_url())\n  File \"D:\\Training\\Development\\orange_hrm\\source\\utilities\\webdriver_extension.py\", line 19, in start_browser\n    driver.get(url)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts.test_dashboard"
+  }, {
+    "name" : "suite",
+    "value" : "test_dashboard"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JAMBUR3"
+  }, {
+    "name" : "thread",
+    "value" : "2232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_dashboard.test_dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "set_up",
+    "value" : "'r'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9b194535799e71f8.json",
+  "parameterValues" : [ "'r'" ]
+}

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Aug 10 22:54:05 IST 2019","Sat Aug 10 22:54:05 IST 2019","0","test_scripts.test_dashboard","test_dashboard","","","","test_datda_fail[Chrome, Firefox]",""
+"passed","Sat Aug 10 16:46:10 IST 2019","Sat Aug 10 16:46:10 IST 2019","0","test_scripts.test_dashboard","test_dashboard","","","","test_datda",""
+"broken","Sat Aug 10 22:54:04 IST 2019","Sat Aug 10 22:54:04 IST 2019","0","test_scripts.test_dashboard","test_dashboard","","","","test_datda[Chrome, Firefox]",""
+"passed","Sat Aug 10 22:20:58 IST 2019","Sat Aug 10 22:20:58 IST 2019","0","test_scripts.test_dashboard","test_dashboard","","","","test_datda[Chrome]",""
+"broken","Sat Aug 10 22:54:05 IST 2019","Sat Aug 10 22:54:05 IST 2019","0","test_scripts.test_dashboard","test_dashboard","","","","test_datda_pass[Chrome, Firefox]",""

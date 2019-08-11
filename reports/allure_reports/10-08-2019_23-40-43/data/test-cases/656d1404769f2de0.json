@@ -1,0 +1,112 @@
+{
+  "uid" : "656d1404769f2de0",
+  "name" : "test_datda_pass[Chrome]",
+  "fullName" : "test_scripts.test_dashboard.test_dashboard#test_datda_pass[Chrome]",
+  "historyId" : "25a0921dcc6030761714beec332cb181",
+  "time" : {
+    "start" : 1565460581523,
+    "stop" : 1565460581524,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1565460572124,
+      "stop" : 1565460581521,
+      "duration" : 9397
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1565460581526,
+      "stop" : 1565460583925,
+      "duration" : 2399
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts.test_dashboard"
+  }, {
+    "name" : "suite",
+    "value" : "test_dashboard"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JAMBUR3"
+  }, {
+    "name" : "thread",
+    "value" : "3180-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_dashboard.test_dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "set_up",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "51cd60d9ffd4b1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565460333867,
+        "stop" : 1565460333879,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "f7368b32a9669237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565459976762,
+        "stop" : 1565459976762,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8f1305b09e48240c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565459794940,
+        "stop" : 1565459794941,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "656d1404769f2de0.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

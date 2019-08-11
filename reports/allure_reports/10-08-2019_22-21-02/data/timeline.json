@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-JAMBUR3",
+    "children" : [ {
+      "name" : "12940-MainThread",
+      "children" : [ {
+        "name" : "test_datda",
+        "uid" : "42a47f3a2b3dc31d",
+        "parentUid" : "2e0078f7f198e4b93cb494408b9ddede",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565435655870,
+          "stop" : 1565435655874,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e0078f7f198e4b93cb494408b9ddede"
+    }, {
+      "name" : "5320-MainThread",
+      "children" : [ {
+        "name" : "test_datda[Chrome]",
+        "uid" : "120b0f0476ec5298",
+        "parentUid" : "39bcd3ffe70def93eb76979b8a7c4756",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565455858612,
+          "stop" : 1565455858612,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "39bcd3ffe70def93eb76979b8a7c4756"
+    }, {
+      "name" : "4360-MainThread",
+      "children" : [ {
+        "name" : "test_datda",
+        "uid" : "c8a2f5e8a2203e56",
+        "parentUid" : "9d2e943da88fea7ee35ea741dcbe4312",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565435343301,
+          "stop" : 1565435343301,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d2e943da88fea7ee35ea741dcbe4312"
+    }, {
+      "name" : "1076-MainThread",
+      "children" : [ {
+        "name" : "test_datda",
+        "uid" : "6cb15652597e41c4",
+        "parentUid" : "6437ed6b50646e462c668eeaafb954af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565435770668,
+          "stop" : 1565435770668,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6437ed6b50646e462c668eeaafb954af"
+    } ],
+    "uid" : "20f58f246004df388a98625f9e186941"
+  } ]
+}

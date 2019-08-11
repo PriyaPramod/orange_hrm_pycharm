@@ -1,0 +1,120 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-JAMBUR3",
+    "children" : [ {
+      "name" : "12940-MainThread",
+      "children" : [ {
+        "name" : "test_datda",
+        "uid" : "f021985352215c84",
+        "parentUid" : "2e0078f7f198e4b93cb494408b9ddede",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565435655870,
+          "stop" : 1565435655874,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e0078f7f198e4b93cb494408b9ddede"
+    }, {
+      "name" : "5320-MainThread",
+      "children" : [ {
+        "name" : "test_datda[Chrome]",
+        "uid" : "4a01a9ac6a2bf5d8",
+        "parentUid" : "39bcd3ffe70def93eb76979b8a7c4756",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565455858612,
+          "stop" : 1565455858612,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "39bcd3ffe70def93eb76979b8a7c4756"
+    }, {
+      "name" : "12196-MainThread",
+      "children" : [ {
+        "name" : "test_datda[Chrome, Firefox]",
+        "uid" : "5d7af5dfb2ca0b09",
+        "parentUid" : "10605fd470f5eec43bd1637e54db5400",
+        "status" : "broken",
+        "time" : {
+          "start" : 1565457844767,
+          "stop" : 1565457844767,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Chrome, Firefox'" ]
+      }, {
+        "name" : "test_datda_fail[Chrome, Firefox]",
+        "uid" : "f26744bbbac24686",
+        "parentUid" : "10605fd470f5eec43bd1637e54db5400",
+        "status" : "broken",
+        "time" : {
+          "start" : 1565457845127,
+          "stop" : 1565457845127,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Chrome, Firefox'" ]
+      }, {
+        "name" : "test_datda_pass[Chrome, Firefox]",
+        "uid" : "4705062b80c0d9b5",
+        "parentUid" : "10605fd470f5eec43bd1637e54db5400",
+        "status" : "broken",
+        "time" : {
+          "start" : 1565457845064,
+          "stop" : 1565457845064,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Chrome, Firefox'" ]
+      } ],
+      "uid" : "10605fd470f5eec43bd1637e54db5400"
+    }, {
+      "name" : "1076-MainThread",
+      "children" : [ {
+        "name" : "test_datda",
+        "uid" : "7b9118d06aee06f1",
+        "parentUid" : "6437ed6b50646e462c668eeaafb954af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565435770668,
+          "stop" : 1565435770668,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6437ed6b50646e462c668eeaafb954af"
+    }, {
+      "name" : "4360-MainThread",
+      "children" : [ {
+        "name" : "test_datda",
+        "uid" : "f4813fbfa8ce5a62",
+        "parentUid" : "9d2e943da88fea7ee35ea741dcbe4312",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565435343301,
+          "stop" : 1565435343301,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d2e943da88fea7ee35ea741dcbe4312"
+    } ],
+    "uid" : "20f58f246004df388a98625f9e186941"
+  } ]
+}
